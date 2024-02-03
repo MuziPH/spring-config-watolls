@@ -8,3 +8,9 @@ spring:
           uri: https://github.com/MuziPH/pluralsight-spring-cloudconfig-watolls.git
           search-paths:
             - station*
+          repos:
+            perf:
+              pattern: '*/perf'
+              uri: https://github.com/MuziPH/pluralsight-spring-cloudconfig-watolls-perf.git
+              search-paths:
+                - 'station*'
