@@ -1,6 +1,10 @@
 server:
   port: 8888
 spring:
+  security:
+    user:
+      name: pluralsight
+      password: pluralsight
   cloud:
     config:
       server:
